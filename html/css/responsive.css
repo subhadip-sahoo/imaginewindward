@@ -1,0 +1,124 @@
+@media only screen and (max-width:760px) {
+img {max-width:100%; height:auto;}
+
+/* 	-----------------------------------------------------
+	------------------- Header Styles -------------------
+	----------------------------------------------------- */
+	#header_section header {padding:4%; width:92%; height:auto; background:url(../images/logo-box.png) no-repeat top;}
+	#header_section header figure {position:inherit; left:auto; top:auto; width:100%; height:auto; text-align:center; margin:0; padding:10px 0; background:none;}
+	#header_section header aside {width:100%;}
+	#header_section header aside .callbox {width:100%; text-align:center; padding:0;}
+	#header_section header aside .dashbox {display:none;}
+	#header_section header aside .socialbox {width:100%; text-align:center; padding:10px 0;}
+	#header_section header aside .logbox {width:100%; text-align:center; padding:5px 0;}
+	
+/* 	-----------------------------------------------------
+	----------------- Navigation Styles -----------------
+	----------------------------------------------------- */
+	#navigation_section {margin:0 auto; padding:0; width:100%; height:auto; background:none; }
+	#navigation_section nav {background-color:#006837; border:7px solid #8cc63e; border-width:7px 0;}
+		
+	.tinynav {display: block;}
+	#nav {display: none;}
+			
+/* 	-----------------------------------------------------
+	------------------- Banner Styles -------------------
+	----------------------------------------------------- */
+	#banner_section section {width:100%; padding:0;}
+	
+	.nivo-caption {bottom:0px !important; left:0px !important; padding:2% !important; width:96% !important;}
+	.nivo-caption h1 {font-size:26px !important; line-height:20px !important;}
+	.nivo-caption h1 span {font-size:12px !important;}
+
+/* 	-----------------------------------------------------
+	------------------ Content Styles -------------------
+	----------------------------------------------------- */
+	
+	#content_section .section01 section .content_box {width:92%; margin:4%;}
+	#content_section .section01 section .content_box article .left {max-width:220px;}
+	
+	#content_section .section02 section {width:92%; padding:4%;}
+	
+	#content_section .section03 section {width:92%; padding:4%;}
+	#content_section .section04 section {width:92%; padding:50px 4%;}
+	
+	.info_box {width:100%; text-align:center;}
+	.form_box {width:100%; border-right:none; padding:10px 0 10px 0;}
+	
+	.form_box label {width:100%; margin:0;}
+	.form_box input[type="text"] {width:95%; margin:0;}
+	.form_box textarea {width:95%; margin:0;}
+	.form_box select {width:100%; margin:0;}
+	
+	ul#gallery {margin:0px; padding:0; list-style:none;}
+	ul#gallery li {margin:10px auto; padding:0 0 16px 0; width:232px; height:auto; background:url(../images/shadow2.png) no-repeat bottom; float:none;}
+	ul#gallery li figure {padding:15px; width:202px; height:180px; background-color:#ddeec5;}
+	ul#gallery li article {width:232px; padding-bottom:15px; background-color:#ddeec5; text-align:center; font-family: 'Roboto', sans-serif; font-size:18px; font-weight:700; line-height:20px; color:#005f2a;}
+	ul#gallery li article a {color:#005f2a; text-decoration:none;}
+	
+			
+/* 	-----------------------------------------------------
+	------------------- Footer Styles -------------------
+	----------------------------------------------------- */
+	
+}
+
+@media only screen and (min-width:480px) and (max-width:760px){
+	
+}
+
+@media only screen and (min-width:760px) and (max-width:1000px) {
+img {max-width:100%; height:auto;}
+
+/* 	-----------------------------------------------------
+	------------------- Header Styles -------------------
+	----------------------------------------------------- */
+	#header_section {border-bottom-color:#FFF;}
+	#header_section header aside {padding:4%; z-index:9999; position:relative;}
+
+	
+/* 	-----------------------------------------------------
+	----------------- Navigation Styles -----------------
+	----------------------------------------------------- */
+	#navigation_section {margin:0 auto; padding:0; width:100%; height:auto; background:none; }
+	#navigation_section nav {background-color:#006837; border:7px solid #8cc63e; border-width:7px 0; padding:0;}
+		
+	#nav {float:none;}
+			
+/* 	-----------------------------------------------------
+	------------------- Banner Styles -------------------
+	----------------------------------------------------- */
+	#banner_section section {width:100%; padding:0;}
+	
+	.nivo-caption {bottom:50px !important; left:50px !important;}
+	
+
+/* 	-----------------------------------------------------
+	------------------ Content Styles -------------------
+	----------------------------------------------------- */
+	
+	#content_section .section01 section .content_box {width:29%; margin:2%;}
+	#content_section .section01 section .content_box article .left {max-width:150px;}
+	
+	#content_section .section02 section {width:96%; padding:2%;}
+	
+	#content_section .section03 section {width:96%; padding:2%;}
+	#content_section .section04 section {width:96%; padding:50px 2%;}
+	
+	#content_section h2 {font-size:26px !important; line-height:normal !important;}
+	
+	#content_section .section03 section ul li {margin:10px 54px;}
+	
+	ul#gallery {margin:0 0 0 -20px; padding:0; list-style:none;}
+	ul#gallery li {margin:10px 0 10px 20px; padding:0 0 16px 0; width:232px; height:auto; background:url(../images/shadow2.png) no-repeat bottom; float:left;}
+	ul#gallery li figure {padding:15px; width:202px; height:180px; background-color:#ddeec5;}
+	ul#gallery li article {width:232px; padding-bottom:15px; background-color:#ddeec5; text-align:center; font-family: 'Roboto', sans-serif; font-size:18px; font-weight:700; line-height:20px; color:#005f2a;}
+	ul#gallery li article a {color:#005f2a; text-decoration:none;}
+	
+			
+/* 	-----------------------------------------------------
+	------------------- Footer Styles -------------------
+	----------------------------------------------------- */
+	
+		
+}

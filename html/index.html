@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Imagine Windward</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<script type="text/javascript" src="js/moderniz.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/tinynav.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'fade',
+		//animSpeed:1500,
+		//pauseTime:7000
+	});	
+});
+</script>
+<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+<script type="text/javascript">
+$(window).load(function() {	
+	$('#carousel').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    itemWidth: 210,
+    itemMargin: 5,
+    asNavFor: '#slider1'
+  });
+   
+  $('#slider1').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel"
+  });
+});
+</script>
+
+</head>
+
+<body>
+<!-- HEADER SECTION -->
+<div id="header_section">
+  <header class="clearfix">
+    <figure><a href="index.html"><img src="images/logo.png" alt=""></a></figure>
+    <aside>
+      <div class="callbox">239.989.6066</div>
+      <div class="dashbox">-</div>
+      <div class="socialbox">
+        <ul>
+          <li><a href="https://www.facebook.com/" target="new"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.twitter.com/" target="new"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://plus.google.com/" target="new"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="https://www.linkedin.com/" target="new"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+      <div class="logbox"><a href="login.html">Login</a> | <a href="register.html">Register</a></div>
+    </aside>
+  </header>
+</div>
+<!-- /HEADER SECTION --> 
+<!-- NAVIGATION SECTION -->
+<div id="navigation_section">
+  <nav class="clearfix">
+    <ul id="nav">
+      <li class="selected"><a href="index.html">Home</a></li>
+      <li><a href="our-process.html">Our Process</a></li>
+      <li><a href="floor-plans.html">Floor Plans</a>
+        <ul>
+          <li><a href="st.-thomas.html">St. Thomas</a></li>
+          <li><a href="st.-martin.html">St. Martin</a></li>
+          <li><a href="captiva.html">Captiva</a></li>
+          <li><a href="windswept.html">Windswept</a></li>
+          <li><a href="windjammer.html">Windjammer</a></li>
+        </ul>
+      </li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="testimonial.html">Testimonial</a></li>
+      <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+  </nav>
+</div>
+<!-- /NAVIGATION SECTION --> 
+<!-- BANNER SECTION -->
+<div id="banner_section">
+  <section class="clearfix">
+    <div class="slider-wrapper">
+      <div id="slider" class="nivoSlider"> <img src="images/slide-01.jpg" alt="" title="#htmlcaption01"> <img src="images/slide-02.jpg" alt="" title="#htmlcaption01"> <img src="images/slide-03.jpg" alt="" title="#htmlcaption01"> </div>
+      <div id="htmlcaption01" class="nivo-html-caption">
+        <h1><span>Imagine your loving </span>dream home...</h1>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- /BANNER SECTION --> 
+<!-- CONTENT SECTION -->
+<div id="content_section">
+  <div class="section01">
+    <section class="clearfix">
+      <div class="content_box">
+        <hgroup>
+          <h2>Available Inventory</h2>
+        </hgroup>
+        <figure><img src="images/img-05.png" width="326" height="194" alt=""></figure>
+        <article class="clearfix">
+          <div class="left">
+            <p>Complete - St. Thomas Model Cape Royal Golf &amp; Racquet Club</p>
+          </div>
+          <div class="right"><a href="available-inventory.html"><img src="images/more.png" width="40" height="40" alt=""></a></div>
+        </article>
+      </div>
+      <div class="content_box">
+        <hgroup>
+          <h2>Floor Plans Expert</h2>
+        </hgroup>
+        <figure><img src="images/img-06.png" width="326" height="194" alt=""></figure>
+        <article class="clearfix">
+          <div class="left">
+            <p>Wonderful combination of enjoying both indoor and outdoor</p>
+          </div>
+          <div class="right"><a href="floor-plans.html"><img src="images/more.png" width="40" height="40" alt=""></a></div>
+        </article>
+      </div>
+      <div class="content_box">
+        <hgroup style="text-align:center;">
+          <h2>Video</h2>
+        </hgroup>
+        <div><iframe width="100%" height="208" frameborder="0" class="actAsDiv" src="http://www.youtube.com/embed/w_0SznZsuD4?autoplay=0&amp;loop=0&amp;showinfo=0&amp;theme=dark&amp;color=red&amp;controls=1&amp;modestbranding=0&amp;start=0&amp;fs=1&amp;iv_load_policy=1&amp;wmode=transparent&amp;rel=1"></iframe></div>
+      </div>
+    </section>
+  </div>
+  <div class="section02">
+    <section class="clearfix">
+      <h2>different approach to home building...</h2>
+      <p><em>Builders seldom use words like &quot;feel&quot; or &quot;imagine if we could...&quot;, but at Windward that's exactly how we approach building.  With an open mind, ready to create something that is uniquely yours, it is our job to help you imagine your home to life!</em></p>
+      <p>Let's face it... making the decision to build is a leap of faith.  There are a lot of unknowns to be discussed.  Our expertise lies in educating our clients.  It is our job to make sure that you understand every facet of your homes design and features. Our knowledge represents thousands of homes built right here in SW Florida. We believe that the Southwest Florida lifestyle involves &quot;blurring the lines between indoor and outdoor living&quot; and that is evident in our designs.</p>
+      <h5>We ask you to join us at "the intersection of building and imagination"!</h5>
+    </section>
+  </div>
+  <div class="section03">
+    <section class="clearfix">
+      <h1>Gallery</h1>
+      <ul>
+        <li>
+          <figure><img src="images/img-01.png" width="230" height="210" alt=""></figure>
+        </li>
+        <li>
+          <figure><img src="images/img-02.png" width="230" height="210" alt=""></figure>
+        </li>
+        <li>
+          <figure><img src="images/img-03.png" width="230" height="210" alt=""></figure>
+        </li>
+        <li>
+          <figure><img src="images/img-04.png" width="230" height="210" alt=""></figure>
+        </li>
+      </ul>
+      <div class="clr"></div>
+      <p>Builders seldom use words like "feel" or "imagine if we could...", but at Windward that's exactly how we approach building.  With an open mind, ready to create something that is uniquely yours, it is our job to help you imagine your home to life!</p>
+      <div class="viewgallery"><a href="index.html">Explore Project Gallery</a></div>
+    </section>
+  </div>
+</div>
+<!-- /CONTENT SECTION --> 
+<!-- FOOTER SECTION -->
+<div id="footer_section">
+  <footer class="clearfix">
+    <div class="section01 clearfix">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="our-process.html">Our Process</a></li>
+        <li><a href="floor-plans.html">Floor Plans</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="testimonial.html">Testimonial</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="section02 clearfix"><img src="images/shadow.png" alt=""></div>
+    <div class="section03 clearfix">
+      <ul>
+        <li>4125 SW 28th Pl, Cape Coral, FL 33914</li>
+        <li><span>-</span></li>
+        <li>239.989.6066</li>
+        <li><span>-</span></li>
+        <li><a href="https://www.facebook.com/" target="new"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.twitter.com/" target="new"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://plus.google.com/" target="new"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="https://www.linkedin.com/" target="new"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <div class="section04 clearfix">ImagineWindward</div>
+    <div class="section05 clearfix">Copyright &copy; 2014 Imagine Windward. All Rights Reserved. Powered by <a href="http://www.businessprodesigns.com/" rel="nofollow" target="new">BusinessPro Designs</a>.</div>
+    <div class="section06 clearfix"><img src="images/footer-logo.png" alt=""></div>
+  </footer>
+</div>
+<!-- /FOOTER SECTION -->
+</body>
+</html>
